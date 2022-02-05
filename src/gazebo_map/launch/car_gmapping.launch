@@ -1,0 +1,7 @@
+<launch>
+
+    <include file="$(find gazebo_pkg)/launch/race.launch"/>
+    <include file="$(find gazebo_map)/launch/gmapping.launch"/>
+    <!--rosrun map_server map_saver -f </location/map>-->
+
+</launch>
